@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.35.0",
+    "axios": "^1.13.6",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "googleapis": "^171.4.0",
+    "ioredis": "^5.10.0",
+    "jsonwebtoken": "^9.0.3",
+    "knex": "^3.2.6",
+    "mongo": "^0.1.0",
+    "mongoose": "^9.3.3",
+    "pg": "^8.20.0",
+    "winston": "^3.19.0",
+    "ws": "^8.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "name": "datacenter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

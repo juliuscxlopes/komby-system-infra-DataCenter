@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  kombi-datacenter:
+    build: .
+    container_name: kombi_core
+    restart: always
+    ports:
+      - "3000:3000"
+      - "8080:8080"
+    env_file: .env
+    depends_on:
+      - postgres
+      - mongodb
+      - influxdb
+    networks:
+      - kombi-network
+
+  postgres:
+    image: postgres:15-alpine
+    container_name: kombi_pg
+    environment:
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - kombi-network
+
+  mongodb:
+    image: mongo:latest
+    container_name: kombi_mongo
+    volumes:
+      - mongodata:/data/db
+    networks:
+      - kombi-network
+
+  influxdb:
+    image: influxdb:2.0
+    container_name: kombi_influx
+    ports:
+      - "8086:8086"
+    volumes:
+      - influxdata:/var/lib/influxdb2
+    networks:
+      - kombi-network
+
+networks:
+  kombi-network:
+    driver: bridge
+
+volumes:
+  pgdata:
+  mongodata:
+  influxdata:

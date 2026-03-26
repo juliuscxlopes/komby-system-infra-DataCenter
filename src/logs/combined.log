@@ -1,0 +1,58 @@
+2026-03-26 14:41:01:411 [[34minfo[39m]: [34m✅ [INFLUX] WriteAPI inicializada para o bucket: undefined[39m
+2026-03-26 14:59:39:5939 [[34minfo[39m]: [34m✅ [INFLUX] WriteAPI inicializada para o bucket: undefined[39m
+2026-03-26 15:01:00:10 [[34minfo[39m]: [34m✅ [INFLUX] WriteAPI inicializada para o bucket: undefined[39m
+2026-03-26 15:08:10:810 [[34minfo[39m]: [34m✅ [INFLUX] WriteAPI inicializada para o bucket: Log-Telemetry[39m
+2026-03-26 15:16:00:160 [[34minfo[39m]: [34m🍃 [GridFS] Bucket "kombi_Assets" pronto.[39m
+2026-03-26 15:16:29:1629 [[34minfo[39m]: [34m🍃 [GridFS] Bucket "kombi_Assets" pronto.[39m
+2026-03-26 15:21:35:2135 [[34minfo[39m]: [34m🍃 [GridFS] Bucket "kombi_Assets" pronto.[39m
+2026-03-26 15:21:35:2135 [[34minfo[39m]: [34m✅ [INFLUX] WriteAPI inicializada para o bucket: Log-Telemetry[39m
+2026-03-26 15:21:35:2135 [[34minfo[39m]: [34m✅ [INFLUX] WriteAPI inicializada para o bucket: Log-Geolocation[39m
+2026-03-26 15:41:52:4152 [[34minfo[39m]: [34m🍃 [GridFS] Bucket "kombi_Assets" pronto.[39m
+2026-03-26 15:41:52:4152 [[34minfo[39m]: [34m✅ [INFLUX] WriteAPI inicializada para o bucket: Log-Telemetry[39m
+2026-03-26 15:41:52:4152 [[34minfo[39m]: [34m✅ [INFLUX] WriteAPI inicializada para o bucket: Log-Geolocation[39m
+2026-03-26 16:51:27:5127 [[34minfo[39m]: [34m🍃 [GridFS] Bucket "kombi_Assets" pronto.[39m
+2026-03-26 16:51:27:5127 [[34minfo[39m]: [34m🍃 [GridFS] Bucket "User_Assets" pronto.[39m
+2026-03-26 16:51:27:5127 [[34minfo[39m]: [34m✅ [INFLUX] WriteAPI inicializada para o bucket: Log-Telemetry[39m
+2026-03-26 16:51:27:5127 [[34minfo[39m]: [34m✅ [INFLUX] WriteAPI inicializada para o bucket: Log-Geolocation[39m
+2026-03-26 16:52:38:5238 [[34minfo[39m]: [34m[AuthGoogleController] URL de autenticação do Google gerada.[39m
+2026-03-26 16:57:44:5744 [[34minfo[39m]: [34m🍃 [GridFS] Bucket "kombi_Assets" pronto.[39m
+2026-03-26 16:57:44:5744 [[34minfo[39m]: [34m🍃 [GridFS] Bucket "User_Assets" pronto.[39m
+2026-03-26 16:57:44:5744 [[34minfo[39m]: [34m✅ [INFLUX] WriteAPI inicializada para o bucket: Log-Telemetry[39m
+2026-03-26 16:57:44:5744 [[34minfo[39m]: [34m✅ [INFLUX] WriteAPI inicializada para o bucket: Log-Geolocation[39m
+2026-03-26 16:57:48:5748 [[34minfo[39m]: [34m[AuthGoogleController] URL de autenticação do Google gerada.[39m
+2026-03-26 16:59:24:5924 [[34minfo[39m]: [34m🍃 [GridFS] Bucket "kombi_Assets" pronto.[39m
+2026-03-26 16:59:24:5924 [[34minfo[39m]: [34m🍃 [GridFS] Bucket "User_Assets" pronto.[39m
+2026-03-26 16:59:24:5924 [[34minfo[39m]: [34m✅ [INFLUX] WriteAPI inicializada para o bucket: Log-Telemetry[39m
+2026-03-26 16:59:24:5924 [[34minfo[39m]: [34m✅ [INFLUX] WriteAPI inicializada para o bucket: Log-Geolocation[39m
+2026-03-26 16:59:27:5927 [[34minfo[39m]: [34m[AuthGoogleController] URL de autenticação do Google gerada.[39m
+2026-03-26 16:59:30:5930 [[34minfo[39m]: [34m[AuthGoogleController] URL de autenticação do Google gerada.[39m
+2026-03-26 17:08:22:822 [[34minfo[39m]: [34m🍃 [GridFS] Bucket "kombi_Assets" pronto.[39m
+2026-03-26 17:08:22:822 [[34minfo[39m]: [34m🍃 [GridFS] Bucket "User_Assets" pronto.[39m
+2026-03-26 17:08:22:822 [[34minfo[39m]: [34m✅ [INFLUX] WriteAPI inicializada para o bucket: Log-Telemetry[39m
+2026-03-26 17:08:22:822 [[34minfo[39m]: [34m✅ [INFLUX] WriteAPI inicializada para o bucket: Log-Geolocation[39m
+2026-03-26 17:08:31:831 [[34minfo[39m]: [34m[AuthGoogleController] URL de autenticação do Google gerada.[39m
+2026-03-26 17:12:02:122 [[34minfo[39m]: [34m🍃 [GridFS] Bucket "kombi_Assets" pronto.[39m
+2026-03-26 17:12:02:122 [[34minfo[39m]: [34m🍃 [GridFS] Bucket "User_Assets" pronto.[39m
+2026-03-26 17:12:02:122 [[34minfo[39m]: [34m✅ [INFLUX] WriteAPI inicializada para o bucket: Log-Telemetry[39m
+2026-03-26 17:12:02:122 [[34minfo[39m]: [34m✅ [INFLUX] WriteAPI inicializada para o bucket: Log-Geolocation[39m
+2026-03-26 17:12:08:128 [[34minfo[39m]: [34m[AuthGoogleController] URL de autenticação do Google gerada.[39m
+2026-03-26 17:12:17:1217 [[34minfo[39m]: [34m[GoogleAuth] Iniciando callback. Code: 4/0Aci98E-...[39m
+2026-03-26 17:12:17:1217 [[31merror[39m]: [31m[GoogleAuth] Erro Crítico: logger.debug is not a function[39m
+2026-03-26 17:12:17:1217 [[31merror[39m]: [31m[AuthGoogleController] Erro no callback: ExternalAPIError is not defined[39m
+2026-03-26 17:17:20:1720 [[34minfo[39m]: [34m🍃 [GridFS] Bucket "kombi_Assets" pronto.[39m
+2026-03-26 17:17:20:1720 [[34minfo[39m]: [34m🍃 [GridFS] Bucket "User_Assets" pronto.[39m
+2026-03-26 17:17:20:1720 [[34minfo[39m]: [34m✅ [INFLUX] WriteAPI inicializada para o bucket: Log-Telemetry[39m
+2026-03-26 17:17:20:1720 [[34minfo[39m]: [34m✅ [INFLUX] WriteAPI inicializada para o bucket: Log-Geolocation[39m
+2026-03-26 17:17:24:1724 [[34minfo[39m]: [34m[AuthGoogleController] URL de autenticação do Google gerada.[39m
+2026-03-26 17:17:31:1731 [[34minfo[39m]: [34m[GoogleAuth] Iniciando callback. Code: 4/0Aci98E_...[39m
+2026-03-26 17:17:31:1731 [[31merror[39m]: [31m[GoogleAuth] Erro Crítico: logger.debug is not a function[39m
+2026-03-26 17:17:31:1731 [[31merror[39m]: [31m[AuthGoogleController] Erro no callback: Erro na comunicação com Google APIs.[39m
+2026-03-26 17:20:30:2030 [[34minfo[39m]: [34m🍃 [GridFS] Bucket "kombi_Assets" pronto.[39m
+2026-03-26 17:20:30:2030 [[34minfo[39m]: [34m🍃 [GridFS] Bucket "User_Assets" pronto.[39m
+2026-03-26 17:20:31:2031 [[34minfo[39m]: [34m✅ [INFLUX] WriteAPI inicializada para o bucket: Log-Telemetry[39m
+2026-03-26 17:20:31:2031 [[34minfo[39m]: [34m✅ [INFLUX] WriteAPI inicializada para o bucket: Log-Geolocation[39m
+2026-03-26 17:20:33:2033 [[34minfo[39m]: [34m[AuthGoogleController] URL de autenticação do Google gerada.[39m
+2026-03-26 17:20:38:2038 [[34minfo[39m]: [34m[GoogleAuth] Iniciando callback. Code: 4/0Aci98E_...[39m
+2026-03-26 17:20:39:2039 [[34minfo[39m]: [34m[GoogleAuth] Tokens OAuth2 obtidos.[39m
+2026-03-26 17:20:39:2039 [[31merror[39m]: [31m[GoogleAuth] Erro Crítico: select * from "user" where "google_id" = $1 limit $2 - não existe a relação "user"[39m
+2026-03-26 17:20:39:2039 [[31merror[39m]: [31m[AuthGoogleController] Erro no callback: Er is not defined[39m

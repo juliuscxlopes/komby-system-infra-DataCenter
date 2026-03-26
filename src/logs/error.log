@@ -1,0 +1,6 @@
+2026-03-26 17:12:17:1217 [[31merror[39m]: [31m[GoogleAuth] Erro Crítico: logger.debug is not a function[39m
+2026-03-26 17:12:17:1217 [[31merror[39m]: [31m[AuthGoogleController] Erro no callback: ExternalAPIError is not defined[39m
+2026-03-26 17:17:31:1731 [[31merror[39m]: [31m[GoogleAuth] Erro Crítico: logger.debug is not a function[39m
+2026-03-26 17:17:31:1731 [[31merror[39m]: [31m[AuthGoogleController] Erro no callback: Erro na comunicação com Google APIs.[39m
+2026-03-26 17:20:39:2039 [[31merror[39m]: [31m[GoogleAuth] Erro Crítico: select * from "user" where "google_id" = $1 limit $2 - não existe a relação "user"[39m
+2026-03-26 17:20:39:2039 [[31merror[39m]: [31m[AuthGoogleController] Erro no callback: Er is not defined[39m
