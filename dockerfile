@@ -1,16 +1,19 @@
-FROM node:18-slim
+# Estágio de Build
+FROM node:20-alpine AS builder
 WORKDIR /app
-
-# Copia os arquivos de dependência
 COPY package*.json ./
-
-# Instala apenas o necessário
-RUN npm install --production
-
-# Copia o resto do código
+RUN npm install
 COPY . .
 
-# Expõe as portas que você configurou (Auth e WS)
-EXPOSE 3000 8080
+# Estágio de Produção
+FROM node:20-alpine
+WORKDIR /app
+# Copia apenas o que foi instalado/preparado no builder
+COPY --from=builder /app ./
 
+# AQUI ESTAVA O ERRO - Removi o comando apk problemático
+# Se o seu projeto precisar de python no futuro, o comando correto é:
+# RUN apk add --no-cache python3 make g++
+
+EXPOSE 3000 8080
 CMD ["node", "App.js"]
