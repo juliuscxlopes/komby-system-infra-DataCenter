@@ -11,7 +11,7 @@ WORKDIR /app
 COPY --from=builder /app ./
 
 # Instalando dependências de sistema necessárias (ex: para node-gyp se tiver)
-RUN apk add --no-null-cache python3 make g++
+RUN apk add --no-cache python3 make g++
 
 EXPOSE 3000 8080
 CMD ["node", "App.js"]
