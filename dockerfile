@@ -1,17 +1,16 @@
-# Estágio de Build
-FROM node:20-alpine AS builder
+FROM node:18-slim
 WORKDIR /app
+
+# Copia os arquivos de dependência
 COPY package*.json ./
-RUN npm install
+
+# Instala apenas o necessário
+RUN npm install --production
+
+# Copia o resto do código
 COPY . .
 
-# Estágio de Produção
-FROM node:20-alpine
-WORKDIR /app
-COPY --from=builder /app ./
-
-# Instalando dependências de sistema necessárias (ex: para node-gyp se tiver)
-RUN apk add --no-cache python3 make g++
-
+# Expõe as portas que você configurou (Auth e WS)
 EXPOSE 3000 8080
+
 CMD ["node", "App.js"]
